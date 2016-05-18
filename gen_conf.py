@@ -22,3 +22,8 @@ for h in hosts:
     print "host = %s" % (hostname)
     print "port = %s" % (port)
     print ""
+
+print "[cesi]"
+print "database = /opt/cesi/userinfo.db"
+print "activity_log = /var/log/cesi.log"
+print "host = 0.0.0.0"
